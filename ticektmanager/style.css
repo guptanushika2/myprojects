@@ -1,0 +1,131 @@
+*{
+     margin:0px;
+     padding:0px;
+     box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width: 100vw;
+}
+.utility{
+    height:10%;
+    width:100%;
+    background-color: #7D8ABC;
+}
+.prioritycolor{
+    height:90%;
+    width:35%;
+    background-color: #FFF8DB;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left:3vw;
+    
+   
+ 
+
+   
+
+}
+
+.yellow{
+    background-color: yellow;
+}
+.red{
+background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.box{
+    height:85%;
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.controls{
+    width:20%;
+    height:80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFF8DB;
+    margin-left: 75vw;
+  margin-top: -8vh;
+}
+.ticketadder{
+    height: 40vh;
+    width: 40vw;
+    background-color:pink;
+    position: absolute;
+   left: 30vw;
+   top: 20vh;
+   z-index: 20;
+  
+}
+.textPart{
+    height: 75%;
+    width: 100%;
+    resize: none;   
+    outline : none ;
+    border: none ;
+    background-color: transparent;
+    font-size: 2rem ;
+    padding:2% ;
+}
+.ticketpriority{
+    height: 25%;
+    width: 100%;
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid black ;
+}
+.taskColor{
+    height: 10%;
+   
+   
+}
+.taskText{
+    padding: 5px;
+    font-size: 2rem;
+    position: relative;
+    /* position:absolute; */
+    height: 90%;
+}
+.ticket{
+    height: 30vh;
+    width : 17vw ;
+    background-color:#7D8ABC;
+}
+.ticketcontainer{
+    height: 90%;
+    width: 100%;
+    background-color: #FFF8DB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2%;
+
+}
+.noDisplay{
+    display: none;
+}
+.lock{
+    position: relative;
+    right: -14vw;
+    bottom: -17vh;
+    
+   
+
+    
+}
+.border{
+    border: 6px solid grey;
+}
